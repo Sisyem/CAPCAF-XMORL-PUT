@@ -1,0 +1,47 @@
+2026-03-27 16:03:45,177 - INFO - ================================================================================
+2026-03-27 16:03:45,178 - INFO - CAPCAF-XMORL-PUT Comprehensive Evaluation Suite
+2026-03-27 16:03:45,178 - INFO - ================================================================================
+2026-03-27 16:03:45,179 - WARNING - capcaf_rpee not found, using simulation
+2026-03-27 16:03:45,179 - INFO - 
+Running: RPEE C++ Implementation
+2026-03-27 16:03:45,179 - INFO - Starting RPEE C++ Implementation Validation
+2026-03-27 16:03:45,179 - INFO - 
+Running: Multi-Tier Deployment
+2026-03-27 16:03:45,181 - INFO - Starting Multi-Tier Deployment Validation
+2026-03-27 16:03:45,181 - INFO - 
+Running: Fail-Safe Mechanism
+2026-03-27 16:03:45,182 - INFO - Starting Fail-Safe Mechanism Validation
+2026-03-27 16:03:45,182 - INFO - 
+Running: Reproducibility
+2026-03-27 16:03:45,182 - INFO - Starting Reproducibility Validation
+2026-03-27 16:03:45,182 - INFO - 
+Running: Preference Learning Visualization
+2026-03-27 16:03:45,182 - INFO - Generating Preference Learning Visualizations
+2026-03-27 16:03:45,827 - ERROR - Failed: "None of [Index([77, 96, 60, 56, 11, 37, 7, 34, 68, 75], dtype='int32')] are in the [index]"
+2026-03-27 16:03:46,130 - INFO - Summary figure saved to evaluation_results\evaluation_summary.png
+2026-03-27 16:03:46,302 - INFO - Performance chart saved to evaluation_results\performance_chart.png
+2026-03-27 16:03:46,303 - INFO - Results saved to evaluation_results\complete_results.json
+2026-03-27 16:03:46,304 - INFO - HTML report saved to evaluation_results\evaluation_report.html
+2026-03-27 16:03:46,304 - INFO - 
+================================================================================
+2026-03-27 16:03:46,304 - INFO - SOME EVALUATIONS FAILED
+2026-03-27 16:03:46,304 - INFO - ================================================================================
+2026-03-27 16:08:08,228 - INFO - ================================================================================
+2026-03-27 16:08:08,228 - INFO - CAPCAF-XMORL-PUT Comprehensive Evaluation Suite
+2026-03-27 16:08:08,228 - INFO - ================================================================================
+2026-03-27 16:08:08,229 - WARNING - capcaf_rpee not found, using simulation
+2026-03-27 16:08:08,229 - INFO - 
+Running: RPEE C++ Implementation
+2026-03-27 16:08:08,229 - INFO - Starting RPEE C++ Implementation Validation
+2026-03-27 16:08:08,229 - INFO - 
+Running: Multi-Tier Deployment
+2026-03-27 16:08:08,230 - INFO - Starting Multi-Tier Deployment Validation
+2026-03-27 16:08:08,230 - INFO - 
+Running: Fail-Safe Mechanism
+2026-03-27 16:08:08,231 - INFO - Starting Fail-Safe Mechanism Validation
+2026-03-27 16:08:08,231 - INFO - 
+Running: Reproducibility
+2026-03-27 16:08:08,231 - INFO - Starting Reproducibility Validation
+2026-03-27 16:08:15,927 - INFO - Summary figure saved to evaluation_results\evaluation_summary.png
+2026-03-27 16:08:30,850 - INFO - Performance chart saved to evaluation_results\performance_chart.png
+2026-03-27 16:08:30,850 - INFO - Generating Preference Learning Visualizations

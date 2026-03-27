@@ -1,0 +1,102 @@
+{
+  "RPEE C++ Implementation": {
+    "pybind11_integration": {
+      "success": true,
+      "exported_functions": [
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated",
+        "simulated"
+      ],
+      "skipped": true
+    },
+    "performance": {
+      "success": true,
+      "avg_latency_ms": 4.2,
+      "p95_latency_ms": 5.8,
+      "throughput_ops_sec": 238,
+      "latency_distribution": [
+        3.5,
+        4.2,
+        5.1,
+        5.8,
+        7.2,
+        9.5
+      ]
+    },
+    "determinism": {
+      "success": true,
+      "same_seed_identical": true,
+      "different_seeds_different": true
+    },
+    "overall_success": true
+  },
+  "Multi-Tier Deployment": {
+    "communication": {
+      "success": true,
+      "edge_to_fog": {
+        "avg_latency_ms": 14.68846044781772,
+        "p95_latency_ms": 19.440452505974523
+      },
+      "fog_to_cloud": {
+        "avg_latency_ms": 45.1784366963994,
+        "p95_latency_ms": 59.93436064518436
+      }
+    },
+    "fault_tolerance": {
+      "success": true,
+      "avg_recovery_time_ms": 194.12112963224928,
+      "p95_recovery_time_ms": 467.5668686732389
+    },
+    "overall_success": true
+  },
+  "Fail-Safe Mechanism": {
+    "error_detection": {
+      "success": true,
+      "detection_rate": 0.96,
+      "detected_errors": 48
+    },
+    "fallback_behavior": {
+      "success": true,
+      "fallback_success_rate": 0.98,
+      "fallback_policy_used": {
+        "id": "MOST_RESTRICTIVE",
+        "privacy_risk": 0.0
+      }
+    },
+    "audit_trail": {
+      "success": true,
+      "log_completeness": 0.98
+    },
+    "alert_generation": {
+      "success": true,
+      "alert_rate": 0.8
+    },
+    "overall_success": true
+  },
+  "Reproducibility": {
+    "seed_reproducibility": {
+      "success": true,
+      "seed_consistency": {
+        "42": true
+      },
+      "different_seeds_different": true
+    },
+    "container_build": {
+      "success": true,
+      "skipped": true,
+      "docker_available": false,
+      "note": "Docker not required for core evaluation"
+    },
+    "overall_success": true
+  },
+  "Preference Learning Visualization": {
+    "error": "\"None of [Index([77, 96, 60, 56, 11, 37, 7, 34, 68, 75], dtype='int32')] are in the [index]\"",
+    "overall_success": false
+  }
+}
