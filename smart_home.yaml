@@ -1,0 +1,21 @@
+domain: smart_home
+context_signals: [occupancy, lighting, temperature, humidity, noise]
+regulatory_thresholds:
+  hipaa: 0.05
+  gdpr: 0.09
+  pipl: 0.13
+performance_constraints:
+  max_latency_ms: 100
+  max_energy_overhead: 0.10
+  max_accuracy_degradation: 0.05
+threat_model:
+  - {type: data_poisoning, target: occupancy_sensors}
+  - {type: inference, target: anonymized_occupancy}
+  - {type: re_identification, target: pseudonymized_occupancy}
+  - {type: model_inversion, target: learned_parameters}
+reference_values:
+  csc: 89.2
+  violation_rate: 0.4
+  utility_retention: 88.9
+  latency_ms: 47
+  time_to_stable: 50

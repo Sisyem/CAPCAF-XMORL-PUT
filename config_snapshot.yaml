@@ -1,0 +1,32 @@
+experiment:
+  name: CAPCaF-Privacy-Utility-Tradeoff
+  version: 0.1.0
+  description: Configuration for reproducible CAPCaF experiments
+  runs: 100
+  base_seed: 42
+optimization:
+  algorithm: NSGA-II
+  population_size: 100
+  generations: 500
+  objectives:
+  - privacy_risk
+  - data_utility
+  - threat_mitigation
+runtime:
+  latency_limit_ms: 100
+  policy_switching_enabled: true
+  feedback_learning_enabled: true
+evaluation:
+  compare_baselines: true
+  save_per_run_results: true
+  generate_figures: true
+  report_statistics: true
+  confidence_level: 0.95
+paths:
+  data_dir: data
+  results_dir: results
+  figures_dir: figures
+reproducibility:
+  record_configuration: true
+  save_random_seeds: true
+  save_run_manifest: true

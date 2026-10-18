@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+tensorflow
+pymoo
+torch
+pyyaml==6.0.2

@@ -1,0 +1,8 @@
+{
+    "experiment_name": "CAPCaF",
+    "start_time_utc": "2026-10-18T19:35:24.180116+00:00",
+    "config_file": "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python313\\My project\\CAPCaF-Experiments\\src\\experiment_config.yaml",
+    "config_snapshot": "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python313\\My project\\CAPCaF-Experiments\\results\\config_snapshot.yaml",
+    "random_seed": 42,
+    "status": "initialized"
+}

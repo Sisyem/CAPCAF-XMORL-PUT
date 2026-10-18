@@ -1,0 +1,21 @@
+domain: industrial_iot
+context_signals: [vibration, throughput, gas_leak, noise, safety_alert]
+regulatory_thresholds:
+  hipaa: 0.05
+  gdpr: 0.09
+  pipl: 0.13
+performance_constraints:
+  max_latency_ms: 100
+  max_energy_overhead: 0.10
+  max_accuracy_degradation: 0.05
+threat_model:
+  - {type: model_inversion, target: process_parameters}
+  - {type: data_poisoning, target: sensor_streams}
+  - {type: inference, target: aggregated_throughput}
+  - {type: re_identification, target: pseudonymized_equipment}
+reference_values:
+  csc: 88.9
+  violation_rate: 0.6
+  utility_retention: 89.1
+  latency_ms: 128
+  time_to_stable: 50

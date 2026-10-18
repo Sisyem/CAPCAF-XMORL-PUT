@@ -1,0 +1,21 @@
+domain: healthcare
+context_signals: [ecg, spo2, room_sterility, device_state, clinical_urgency]
+regulatory_thresholds:
+  hipaa: 0.05
+  gdpr: 0.09
+  pipl: 0.13
+performance_constraints:
+  max_latency_ms: 100
+  max_energy_overhead: 0.10
+  max_accuracy_degradation: 0.05
+threat_model:
+  - {type: inference, target: anonymized_biometric}
+  - {type: data_poisoning, target: vital_signs}
+  - {type: model_inversion, target: learned_parameters}
+  - {type: re_identification, target: pseudonymized_records}
+reference_values:
+  csc: 88.0
+  violation_rate: 0.7
+  utility_retention: 89.2
+  latency_ms: 75
+  time_to_stable: 50
