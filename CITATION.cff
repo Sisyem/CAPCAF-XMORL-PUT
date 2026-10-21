@@ -1,0 +1,48 @@
+Experimental validation for CAPCAF framework
+@Sisyem Sisyem released this last week
+ CAPCAFv1.0.0
+ 9f0f6c1
+CAPCAF: Context-Aware Privacy Compliance and Adaptation Framework
+Overview
+CAPCAF is a hybrid design-time and runtime framework for adaptive privacy-utility optimization in Internet of Things (IoT) environments. This is the initial public release accompanying the manuscript "A Hybrid Design-Time and Runtime Framework for Adaptive Privacy-Utility Optimization in IoT."
+
+What's Included
+Core Framework Modules
+Domain Configuration Interface (DCI): Template-based configuration for Healthcare, Smart Home, and Industrial IoT domains.
+Design-Time Phase:
+Threat Modeling and Taxonomy (model inversion, data poisoning, side-channel, inference, re-identification)
+Context and User Modeling (PUTC behavioral trade-off)
+Threat Injection and Simulation Environment
+Performance and Regulatory Constraint Modeling (HIPAA, GDPR, PIPL)
+Multi-Objective Policy Optimization (NSGA-II + Q-learning)
+Policy Validation and Stress-Testing
+Runtime Phase:
+Real-Time Context Acquisition (RTCA)
+Real-Time Signal Processor and Feature Extractor
+Adaptive Risk Quantification (PUTC Calculator)
+Runtime Adaptation Manager (RAM)
+Runtime Policy Execution Engine (RPEE)
+Monitoring and Continuous Adaptation:
+Monitoring and Logging
+Online Learning from Feedback
+Policy Adaptation
+Design-Time Refinement
+Cross-Domain Scalability Mechanisms
+Output Interfaces and Consumers
+Experimental Artifacts
+NSGA-II configuration: 500 generations, population size 100, 100 independent runs
+Run-level statistics (mean privacy risk, mean utility, mean threat risk, best utility)
+Baseline implementations: Static_DP (LATENT), Context_Agnostic (IoTWatch), Domain_Specific
+Ablation study configurations
+Datasets Supported
+Smart Home: CASAS dataset (50 sensors/actuators, 12 contextual variables)
+Healthcare: Synthea™ synthetic cohort (200 patient profiles, 25 contextual variables)
+Industrial IoT: MIMII dataset (machine sound telemetry, vibration data, anomaly patterns)
+Requirements
+Python 3.13.0
+NumPy 2.4.3
+Pandas 3.0.1
+SciPy 1.17.1
+TensorFlow 2.21,0
+Pymoo 0.6.2
+PyTorch 2.10.0
